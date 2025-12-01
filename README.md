@@ -1,4 +1,4 @@
-# Protein Structure Hunter — Submission Pack
+# Protein Structure Hunter
 
 This package contains the runnable Kaggle notebook and MCP tool server for the Protein Structure Hunter project.
 
