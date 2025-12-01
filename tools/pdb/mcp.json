@@ -1,0 +1,20 @@
+{
+  "name": "pdb_tool",
+  "description": "Search PDB (PDBe) by UniProt accession and fetch summary metadata",
+  "tools": {
+    "search_by_uniprot": {
+      "endpoint": "http://127.0.0.1:9001/pdb/search_by_uniprot",
+      "method": "GET",
+      "params_schema": {
+        "accession": "string"
+      }
+    },
+    "summary": {
+      "endpoint": "http://127.0.0.1:9001/pdb/summary",
+      "method": "GET",
+      "params_schema": {
+        "pdb_id": "string"
+      }
+    }
+  }
+}

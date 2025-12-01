@@ -1,0 +1,21 @@
+{
+  "name": "uniprot_tool",
+  "description": "Search UniProt and fetch UniProtKB entries",
+  "tools": {
+    "search": {
+      "endpoint": "http://127.0.0.1:9001/uniprot/search",
+      "method": "GET",
+      "params_schema": {
+        "query": "string",
+        "limit": "number"
+      }
+    },
+    "entry": {
+      "endpoint": "http://127.0.0.1:9001/uniprot/entry",
+      "method": "GET",
+      "params_schema": {
+        "accession": "string"
+      }
+    }
+  }
+}

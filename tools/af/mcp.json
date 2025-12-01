@@ -1,0 +1,13 @@
+{
+  "name": "af_tool",
+  "description": "Query AlphaFold DB predictions by UniProt accession",
+  "tools": {
+    "prediction": {
+      "endpoint": "http://127.0.0.1:9001/af/prediction",
+      "method": "GET",
+      "params_schema": {
+        "accession": "string"
+      }
+    }
+  }
+}
